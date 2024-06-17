@@ -1,26 +1,9 @@
-// styles/Header.scss
-
-header {
-    height: 100vh; // Altura total da tela
-    width: 100vw; // Largura total da tela
-    background-image: url('/path/to/your/image.jpg'); // Caminho para a sua imagem
-    background-size: cover; // Ajusta a imagem para cobrir toda a área
-    background-position: center; // Centraliza a imagem
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); // Adiciona sombra ao texto para melhorar a legibilidade
-  }
-// styles/Header.scss
-
-header {
-    height: 100vh; // Altura total da tela
-    width: 100vw; // Largura total da tela
-    background-image: url('/path/to/your/image.jpg'); // Caminho para a sua imagem
-    background-size: cover; // Ajusta a imagem para cobrir toda a área
-    background-position: center; // Centraliza a imagem
+.header {
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('/path/to/your/image.jpg'); 
+    background-size: cover;
+    background-position: center; 
     display: flex;
     flex-direction: column;
     justify-content: center;
