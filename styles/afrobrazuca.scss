@@ -1,0 +1,12 @@
+@import './functions.scss';
+
+$primary:       #801F4F;
+$secondary:     #FD7E14;
+$success:       #20C997;
+$info:          #3DD5F3;
+$warning:       #FFC107;
+$danger:        #58151C;
+$light:         #e90476;
+$dark:          #2e0017;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
