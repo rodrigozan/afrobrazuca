@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
     <section className="p-4">
       <h2>Contato</h2>
       <p>
-        Entre em contato pelo e-mail: artista@afrobrazuca.com
+        Entre em contato pelo e-mail: <a href="mailto:rodlofi@gmail.com" className='text-dark'>rodlofi@gmail.com</a>
       </p>
     </section>
   );
