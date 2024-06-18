@@ -1,9 +1,44 @@
 // styles/globals.scss
-@import 'bootstrap/scss/bootstrap';
+//@import '../node_modules/bootstrap/scss/bootstrap';
+@import './afrobrazuca.scss';
+
+// import gotham font
+@font-face {
+  font-family: 'Gotham-Thin';
+  src: url('./assets/fonts/Gotham/Gotham-Thin.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('./assets/fonts/Gotham/Gotham-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('./assets/fonts/Gotham/Gotham-Bold.otf');
+}
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gotham-Medium';
   margin: 0;
   padding: 0;
 }
+
+*-light {
+  @include apply-font('light');
+}
+
+*-dark {
+  @include apply-font('dark');
+}
+
+h1, h2, h3, h4, h6, h6 {
+    @include apply-font('dark');
+}
+
+p, span, em, i, strong, b, ul, li, blockquote, label, button {
+    @include apply-font('light');
+    font-weight: 600;
+}
+
 
