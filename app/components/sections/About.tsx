@@ -9,7 +9,7 @@ import about from '../../assets/img/RodLofi-about.jpg'
 const About: React.FC = () => {
   return (
     <>
-      <section className={`${styles.About} p-4 row`}>
+      <section className={`section ${styles.About} p-4 row`}>
         <div className='col-6'>
           <img src={about.src} alt="About Rod Lofi" />
         </div>

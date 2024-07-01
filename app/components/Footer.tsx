@@ -7,8 +7,8 @@ export default function Footer() {
     const date = new Date();
     
     return (
-        <footer className='text-center text-white bg-black p-4'>
-            <p>© Rod Lofi, <FormattedDate date={date} format="Year" /></p>
+        <footer className='section d-flex align-items-end justify-content-center text-white bg-black p-4'>
+            <span>© Rod Lofi, <FormattedDate date={date} format="Year" /></span>
         </footer>
     );
 }

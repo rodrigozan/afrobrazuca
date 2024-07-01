@@ -7,7 +7,7 @@ import apple from '../assets/img/apple-music-white.png'
 
 const Header: React.FC = () => {
   return (
-    <header className={styles.header}>
+    <header className={`section ${styles.header}`}>
       <div className="mb-3 text-center">
         <h1 className='text-light'>Wave</h1>
         <span>New Release</span>

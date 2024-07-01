@@ -4,7 +4,7 @@ import styles from '../../../styles/modules/MailList.module.scss'
 
 const MailList: React.FC = () => {
     return (
-        <section className={`${styles.MailList} p-4 bg-dark`}>
+        <section className={`section ${styles.MailList} p-4 bg-dark`}>
             <div className={`content`}>
             <p>Join my mailing list for the latest news</p>
             <div className="input-group mb-3">
