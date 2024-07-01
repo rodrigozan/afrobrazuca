@@ -2,9 +2,9 @@ import React from 'react';
 
 import MailList from './MailList';
 
-import styles from '../../styles/About.module.scss';
+import styles from '../../../styles/modules/About.module.scss';
 
-import about from '../assets/img/RodLofi-about.jpg'
+import about from '../../assets/img/RodLofi-about.jpg'
 
 const About: React.FC = () => {
   return (

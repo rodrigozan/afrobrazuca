@@ -1,9 +1,9 @@
 import React from 'react';
 
-import styles from '../../styles/Musics.module.scss';
+import styles from '../../../styles/modules/Musics.module.scss';
 
-import img1 from '../assets/img/RodLofi-about.jpg'
-import img2 from '../assets/img/RodLofi-header.jpg'
+import img1 from '../../assets/img/RodLofi-about.jpg'
+import img2 from '../../assets/img/RodLofi-header.jpg'
 
 const Musics: React.FC = () => {
   return (

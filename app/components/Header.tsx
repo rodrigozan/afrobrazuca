@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../../styles/Header.module.scss';
+import styles from '../../styles/modules/Header.module.scss';
 
 import spotify from '../assets/img/spotify-white.png'
 import apple from '../assets/img/apple-music-white.png'
@@ -8,7 +8,7 @@ import apple from '../assets/img/apple-music-white.png'
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <div className="mb-3">
+      <div className="mb-3 text-center">
         <h1 className='text-light'>Wave</h1>
         <span>New Release</span>
       </div>

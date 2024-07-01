@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FormattedDate from './FormattedDate';
+import FormattedDate from './utilities/FormattedDate';
 
 
 export default function Footer() {

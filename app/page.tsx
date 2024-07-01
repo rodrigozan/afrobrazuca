@@ -1,7 +1,7 @@
 import React from 'react';
-import About from './components/About';
-import Musics from './components/Musics';
-import Contact from './components/Contact';
+import About from './components/sections/About';
+import Musics from './components/sections/Musics';
+import Contact from './components/sections/Contact';
 import Footer from './components/Footer';
 
 import './globals.css'

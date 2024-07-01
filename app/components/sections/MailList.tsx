@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../../styles/MailList.module.scss'
+import styles from '../../../styles/modules/MailList.module.scss'
 
 const MailList: React.FC = () => {
     return (

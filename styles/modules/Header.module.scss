@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'AclonicaRegular';
-  src: url('../app/assets/fonts/Aclonica/Aclonica-Regular.ttf');
+  src: url('../../app/assets/fonts/Aclonica/Aclonica-Regular.ttf');
 }
 
 .header {
   height: 100vh;
   width: 100vw;
-  background-image: url('../app/assets/img/RodLofi-header.jpg');
+  background-image: url('../../app/assets/img/RodLofi-header.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
