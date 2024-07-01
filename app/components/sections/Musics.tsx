@@ -17,9 +17,9 @@ const Musics: React.FC = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <section className={`${styles.Musics} container p-4 bg-light`}>
+    <section className={`${styles.Musics} p-4 bg-light`}>
       <h5 className='text-info'>Musics</h5>
-      <div className='d-flex'>
+      <div className="d-flex">
         <figure className={`${styles.music} music1 col-6`}>
           <img src={img1.src} alt="Waves" />
           <figcaption className="d-flex align-items-end" onClick={openModal}>Waves</figcaption>
