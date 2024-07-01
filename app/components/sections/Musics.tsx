@@ -20,16 +20,16 @@ const Musics: React.FC = () => {
     <section className={`${styles.Musics} p-4 bg-light`}>
       <h5 className='text-info'>Musics</h5>
       <div className="d-flex">
-        <figure className={`${styles.music} music1 col-6`}>
+        <figure className={`${styles.music} col-6`}>
           <img src={img1.src} alt="Waves" />
-          <figcaption className="d-flex align-items-end" onClick={openModal}>Waves</figcaption>
+          <figcaption className="d-flex align-items-end p-2 text-secondary" onClick={openModal}>Waves</figcaption>
           <Modal isOpen={isModalOpen} onClose={closeModal}>
             <MusicPlayer src="../../assets/audio/waves.mp3" />
           </Modal>
         </figure>
-        <figure className={`${styles.music} music1 col-6`}>
+        <figure className={`${styles.music} col-6`}>
           <img src={img2.src} alt="One day in your presence" />
-          <figcaption className="d-flex align-items-end">One day in your presence</figcaption>
+          <figcaption className="d-flex align-items-end p-2 text-secondary">One day in your presence</figcaption>
         </figure>
       </div>
     </section>

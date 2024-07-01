@@ -12,6 +12,7 @@
 
         img {
             max-width: 100%;
+            z-index: 1;
         }
 
         &+.music {
@@ -20,19 +21,9 @@
 
         figcaption {
             margin-top: -40px;
-            background-color: rgba(60, 60, 60, 0.63);
-            color: #fff;
-            padding: 3px;
             text-align: center;
-            z-index: 999;
+            z-index: 999999;
+            text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.6);
           }
-    }
-
-    &.music1 {
-        background-image: url('../../app/assets/img/RodLofi-about.jpg');
-    }
-
-    &.music2 {
-        background-image: url('../../app/assets/img/RodLofi-header.jpg');
     }
 }
