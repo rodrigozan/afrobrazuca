@@ -13,8 +13,14 @@ import img2 from '../../assets/img/one-day-in-your-presence.jpg'
 const Musics: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
+  const openModal = () => {
+    setIsModalOpen(true)
+    document.body.classList.add('modal-open');
+  };
+  const closeModal = () => {
+    setIsModalOpen(false)
+    document.body.classList.remove('modal-open');
+  };
 
   return (
     <section className={`${styles.Musics} p-4 bg-light`}>

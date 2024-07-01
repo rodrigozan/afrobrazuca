@@ -24,6 +24,10 @@ body {
   padding: 0;
 }
 
+.modal-open {
+  overflow: hidden; /* Oculta a barra de rolagem */
+}
+
 *-light {
   @include apply-font('light');
 }
