@@ -6,6 +6,8 @@
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
+        padding: 0;
+        max-height: 300px;
 
         img {
             max-width: 100%;
@@ -14,13 +16,22 @@
         &+.music {
             margin-left: 10px;
         }
+
+        figcaption {
+            margin-top: -40px;
+            background-color: rgba(60, 60, 60, 0.63);
+            color: #fff;
+            padding: 3px;
+            text-align: center;
+            z-index: 999;
+          }
     }
 
     &.music1 {
-        background-image: url('../app/assets/img/RodLofi-about.jpg');
+        background-image: url('../../app/assets/img/RodLofi-about.jpg');
     }
 
     &.music2 {
-        background-image: url('../app/assets/img/RodLofi-header.jpg');
+        background-image: url('../../app/assets/img/RodLofi-header.jpg');
     }
 }
