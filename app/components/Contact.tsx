@@ -9,7 +9,7 @@ import styles from '../../styles/Contact.module.scss'
 
 const Contact: React.FC = () => {
   return (
-    <section className={`${styles.Contact} p-4 bg-dark`}>
+    <section className={`${styles.Contact} p-4 bg-secondary`}>
       <div className={`content`}>
         <p>Me in web</p>
         <div className="socialMedia d-flex align-items-center">
