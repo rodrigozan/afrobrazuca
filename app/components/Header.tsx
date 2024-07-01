@@ -7,11 +7,14 @@ import apple from '../assets/img/apple-music-white.png'
 
 const Header: React.FC = () => {
   return (
-    <header className={styles.header}> 
-      <h1 className='text-white'>Rod Lofi</h1>
+    <header className={styles.header}>
+      <div className="mb-3">
+        <h1 className='text-light'>Wave</h1>
+        <span>New Release</span>
+      </div>
       <p>
-        <a href="https://open.spotify.com/intl-pt/artist/2vQYZkXsLPj0QALQaSINWr" className="btn btn-success m-2 text-white" target='_new'> <img src={spotify.src} /> Ouça no Spotify</a>
-        <a href="https://apple.com/music" className="btn btn-light m-2 text-white"><img src={apple.src} /> Ouça no Apple Music</a>
+        <a href="https://open.spotify.com/intl-pt/artist/2vQYZkXsLPj0QALQaSINWr" className="btn btn-success m-2 text-white" target='_new'> <img src={spotify.src} /> List in Spotify</a>
+        <a href="https://apple.com/music" className="btn btn-light m-2 text-white"><img src={apple.src} /> List in Apple Music</a>
       </p>
     </header>
   );
