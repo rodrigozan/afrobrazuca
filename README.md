@@ -1,5 +1,5 @@
-# Afrobrazuca Website
+# Rod Lofi Website
 
-Website of Afrobrazuca, lofi productor.
+Website of Rod Lofi, lofi productor.
 
 Created with React/Next.
