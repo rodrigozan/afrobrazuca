@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .modalContent {
@@ -27,4 +28,15 @@
 
 .modalContent button {
   margin-top: 10px;
+}
+
+/* Animações */
+.modal-background.fade-in {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-background.fade-out {
+  opacity: 0;
+  visibility: hidden;
 }
