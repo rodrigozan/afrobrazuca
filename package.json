@@ -2,12 +2,15 @@
   "name": "rodlofi",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rodrigozan.github.io/rodlofi",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sass": "sass --watch styles/globals.scss app/globals.css"
+    "sass": "sass --watch styles/globals.scss app/globals.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
@@ -35,6 +38,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/sass": "^1.45.0",
+    "gh-pages": "^6.1.1",
     "typescript": "^5"
   }
 }
