@@ -7,9 +7,9 @@ interface DataProps {
 
 const FormattedDate: React.FC<DataProps> = ({ date, format }) => {
   const formatDate = (date: Date, format: 'US' | 'BR' | 'US_DayMonth' | 'Year'): string => {
-    const optionsUS = { year: 'numeric', month: 'long', day: 'numeric' };
-    const optionsBR = { day: 'numeric', month: 'long', year: 'numeric' };
-    const optionsUSDayMonth = { month: 'long', day: 'numeric' };
+    const optionsUS: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+    const optionsBR: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
+    const optionsUSDayMonth: Intl.DateTimeFormatOptions = { month: 'long', day: 'numeric' };
 
     switch (format) {
       case 'US':
