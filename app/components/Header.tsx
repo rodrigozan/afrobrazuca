@@ -10,7 +10,8 @@ const Header: React.FC = () => {
     <header className={`section ${styles.header}`}>
       <div className="mb-3 text-center">
         <h1 className='text-light'>Wave</h1>
-        <span>New Release</span>
+        <span className='fw-light'>by Rod Lofi</span>
+        <p>New Release</p>
       </div>
       <p>
         <a href="https://open.spotify.com/intl-pt/artist/2vQYZkXsLPj0QALQaSINWr" className="btn btn-success m-2 text-white" target='_new'> <img src={spotify.src} /> List in Spotify</a>
