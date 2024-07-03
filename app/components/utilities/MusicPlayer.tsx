@@ -25,11 +25,6 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ src }) => {
         <div className={styles['album-info']}>
           <span className={`fs-4 ${styles['album-title']}`}>Waves</span>
           <span className={`fs-6 ${styles['song-title']}`}>Rod Lofi</span>
-          <span className={styles['song-utility']}>
-          <FontAwesomeIcon className='me-1' icon={fas.faHome} />
-          <FontAwesomeIcon className='me-1' icon={fas.faRandom} />
-          <FontAwesomeIcon icon={fas.faRetweet} />
-          </span>
         </div>
       </div>
 
